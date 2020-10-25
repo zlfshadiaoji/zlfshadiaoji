@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-image: url(../jpg/qiang.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/zlfshadiaoji/zlfshadiaoji@main/jpg/qiang.jpg);
     background-size: 100% 100%;
     background-attachment: fixed;
     min-width: 1200px;
@@ -22,7 +22,7 @@ body{
     position: fixed;
     width: 85%;
     height: 750px;
-    background-image: url(../jpg/shan.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/zlfshadiaoji/zlfshadiaoji@main/jpg/shan.jpg);
     background-size: 100% 100%;
     transform-origin: 0 0;
     transform: rotateZ(5deg);
@@ -51,7 +51,7 @@ body{
     width: 200px;
     height: 200px;
     border-radius: 150px;
-    background-image: url(../jpg/55.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/zlfshadiaoji/zlfshadiaoji@main/jpg/55.png);
     position: absolute;
     margin-top: -93px;
     margin-left: -101px;
@@ -65,7 +65,7 @@ body{
     font-size: 50px;
     font-weight: bold;
     color: rgb(223, 64, 5);
-    background-image: url(../jpg/qiang.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/zlfshadiaoji/zlfshadiaoji@main/jpg/qiang.jpg);
     box-shadow: 0 15px 15px black;
 }
 .jc .one{
@@ -168,7 +168,7 @@ body{
     margin-left: 20%;
     box-shadow: 0 5px 5px rgba(0, 0, 0, .8);
     padding: 4px;
-    background-image: url(../jpg/qiang.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/zlfshadiaoji/zlfshadiaoji@main/jpg/qiang.jpg);
 }
 .jc .dier{
     font-size: 18px;
@@ -176,7 +176,7 @@ body{
     margin-left: 20%;
     box-shadow: 0 5px 5px rgba(0, 0, 0, .8);
     padding: 4px;
-    background-image: url(../jpg/qiang.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/zlfshadiaoji/zlfshadiaoji@main/jpg/qiang.jpg);
 }
 .jc .disan{
     font-size: 18px;
@@ -184,7 +184,7 @@ body{
     margin-left: 20%;
     box-shadow: 0 5px 5px rgba(0, 0, 0, .8);
     padding: 4px;
-    background-image: url(../jpg/qiang.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/zlfshadiaoji/zlfshadiaoji@main/jpg/qiang.jpg);
 }
 .jincheng{
     font-size: 35px;
@@ -199,7 +199,7 @@ body{
     margin-left: 20%;
     box-shadow: 0 5px 5px rgba(0, 0, 0, .8);
     padding: 4px;
-    background-image: url(../jpg/qiang.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/zlfshadiaoji/zlfshadiaoji@main/jpg/qiang.jpg);
 }
 .jc .diwu{
     font-size: 18px;
@@ -207,7 +207,7 @@ body{
     margin-left: 20%;
     box-shadow: 0 5px 5px rgba(0, 0, 0, .8);
     padding: 4px;
-    background-image: url(../jpg/qiang.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/zlfshadiaoji/zlfshadiaoji@main/jpg/qiang.jpg);
 }
 .jc .diliu{
     font-size: 18px;
@@ -215,7 +215,7 @@ body{
     margin-left: 20%;
     box-shadow: 0 5px 5px rgba(0, 0, 0, .8);
     padding: 4px;
-    background-image: url(../jpg/qiang.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/zlfshadiaoji/zlfshadiaoji@main/jpg/qiang.jpg);
 }
 .jc .xinde{
     width: 230px;
@@ -227,7 +227,7 @@ body{
     text-shadow: 0 10px 10px rgba(0, 0, 0, .8);
     margin-top: 100px;
     margin-left: 70%;
-    background-image: url(../jpg/qiang.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/zlfshadiaoji/zlfshadiaoji@main/jpg/qiang.jpg);
     background-size: 100% 100%;
     box-shadow: 0 15px 15px rgba(0, 0, 0, .8);
 }
