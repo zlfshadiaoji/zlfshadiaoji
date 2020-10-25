@@ -1,0 +1,160 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body
+{
+	display: flex;
+	min-height: 100vh;
+	justify-content: center;
+	align-items: center;
+	background-image: url(../jpg/5.jpg);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+.da
+{	
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	max-width: 1100px;
+}
+.da .zhong
+{
+	margin-left: 15px;
+	border-top-left-radius: 120px;
+	border-top-right-radius: 120px;
+	border-bottom-right-radius: 50px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 250px;
+	height: 350px;
+	background:  linear-gradient( black 30%,#fff);
+	transition: 0.3s;
+	box-shadow: 0px 10px 15px rgba(0,0,0,.2);
+}
+.da .zhong:before
+{
+	content: "";
+	position: absolute;
+	border-bottom-right-radius: 50px;
+	width: 250px;
+	height: 350px;
+	z-index:1;
+	background: linear-gradient( black 30%,#fff);
+	border-top-left-radius: 120px;
+	border-top-right-radius: 120px;
+	transition: 0.3s;
+	box-shadow: 0px 10px 15px rgba(0,0,0,.2);
+}
+.da .zhong .xiao
+{
+	text-align: center;
+	z-index: 2;
+	padding: 0 70px;
+}
+.da .zhong .xiao h2
+{
+	margin-top: 15px;
+
+}
+.da .zhong .xiao p
+{
+	font-family: "Times New Roman", Times, serif;
+	margin-top: 5px;
+
+}
+.da .zhong .xiao a
+{
+	display: flex;
+	position: absolute;
+	padding: 3px 18px;
+	margin-top: 15px;
+	margin-left: 10px;
+	text-decoration: none;
+	width: 120px;
+	height: 30px;
+	background: #13202e;
+	color: #fff;
+	transition: 0.4s;
+	margin-left: 25%;
+	margin-bottom: 20px;
+}
+.da .zhong:hover:before
+{
+	box-shadow: 0px 15px 20px rgba(0,0,0,.2);
+	border-radius: 20px;
+	color: #fff;
+	background: linear-gradient(0deg,pink 20%,white);
+}
+.da .zhong:hover
+{
+	box-shadow: 0px 15px 20px rgba(0,0,0,.2);
+	border-radius: 20px;
+	color: #fff;
+	background: linear-gradient(0deg,pink 20%,white);
+}
+.da:hover .zhong
+{
+	filter: blur(5px);
+	transform: scale(.7);
+}
+.da .zhong:hover .xiao h2,
+.da .zhong:hover .xiao p
+{
+	transition: 0.4s;
+	color: #fff;
+}
+.da .zhong:hover
+{
+	transform: scaleY(1.15);
+	filter: blur(0);
+}
+.da .zhong:hover .xiao a
+{
+	border-radius: 40px;
+	transition: 0.4s;
+}
+.da .zhong .xiao a:hover
+{
+	background: #50c1ff;
+	box-shadow: 0 0 10px #50c1ff, 0 0 40px #50c1ff, 0 0 80px #50c1ff;
+	transform: scale(1.15);
+}
+body .bt{
+	position: absolute;
+	list-style: none;
+	margin-top: -40%;
+	text-align: center;
+	border-bottom-left-radius: 90px;
+	border-bottom-right-radius: 90px;
+	background: black;
+	width: 500px;
+	height: 150px;
+	margin-left: 50%;
+	margin-right: 50%;
+	box-shadow: 0 0 10px black, 0 0 40px black, 0 0 80px black;
+	font-size: 80px;
+	font-weight: bold;
+	color: beige;
+	text-shadow: 0 0 10px beige, 0 0 40px beige, 0 0 80px beige;
+}
+img{
+	position: relative;
+	width: 250px;
+	height: 180px;
+	border-top-left-radius: 120px;
+	border-top-right-radius: 120px;
+	transition: 0.3s;
+	margin-top: -100px;
+}
+.da .zhong:hover img{
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	transition: 0.3s;
+}

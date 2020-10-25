@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../jpg/3.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.wao{
+    width: 1000px;
+    height: 1500px;
+    background: rgba(255, 255, 255, .5);
+    margin-left: 22.5%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+embed{
+    margin-left: 10px;
+    margin-top: 30px;
+    border: 10px solid pink;
+    border-top-right-radius: 170px;
+    box-shadow: 0 0 10px pink, 0 0 40px pink, 0 0 80px pink;
+}
+.jieshao{
+    width: 960px;
+    height: 175px;
+    margin-left: 20px;
+    background: white;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+.jieshao #tupian{
+    width: 120px;
+    height: 120px;
+    border-radius: 300px;
+    margin-top: 7px;
+    margin-left: 17.5px;
+    transition: 0.5s;
+}
+.jieshao .tou{
+    display: flex;
+    width: 960px;
+    height: 20px;
+    background: lightseagreen;
+    box-shadow: 0 0 10px lightseagreen, 0 0 40px lightseagreen, 0 0 80px lightseagreen;
+    transition: 0.5s;
+}
+.jieshao span{
+    position: absolute;
+    display: flex;
+    width: 80px;
+    height: 25px;
+    background: pink;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    border-top-right-radius: 80px;
+    box-shadow: 0 0 10px pink, 0 0 40px pink, 0 0 80px pink;
+    transition: 0.5s;
+}
+.jieshao:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, .7);
+    transition: 0.5s;
+}
+.jieshao #tupian:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 15px 15px rgba(0,0,0,.8);
+    transition: 0.5s;
+}
+.jieshao .tou:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 15px 15px rgba(0,0,0,.8);
+    transition: 0.5s;
+}
+.jieshao span:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 15px 15px rgba(0,0,0,.8);
+    transition: 0.5s;
+}
+h1{
+    text-indent: 2em;
+    margin-left: 20%;
+    margin-top: -10%;
+    color: rgba(0,0,0,.8);
+    text-shadow: 0 0 10px rgba(0,0,0,.8), 0 0 40px rgba(0,0,0,.8), 0 0 80px rgba(0,0,0,.8);
+    transition: 0.5s;
+}
+.jieshao h1:hover{
+    transform: scale(1.05);
+    text-shadow: 0px 15px 15px rgba(0,0,0,.8);
+    transition: 0.5s;
+}
+.jieshao .qq{
+    margin-left: 20%;
+    margin-top: 5.5px;
+    background-color: deepskyblue;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 0 10px black, 0 0 40px black, 0 0 80px black;
+    font-size: 23.5px;
+}
+.jieshao .qq p{
+    display: block;
+    animation: MY 3S infinite;
+}
+@keyframes MY{
+    from {color:#fff;transform: scale(1);}
+    to {color:tomato;transform: scale(1.15);text-shadow: 0 0 10px black, 0 0 40px black, 0 0 80px black;}
+}
+.ty{
+    position: absolute;
+    margin-left: 20px;
+    width: 960px;
+    height: 30px;
+    background-color: brown;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    box-shadow: 0 0 10px brown, 0 0 40px brown, 0 0 80px brown;
+    text-shadow: 0 0 10px black, 0 0 40px black, 0 0 80px black;
+    transition: 0.5s;
+}
+.ty:hover{
+    transform: rotateZ(5deg);
+    box-shadow: 0px 15px 15px rgba(0,0,0,.8);
+    transition: 0.5s;
+}
+.erweima{
+    margin-left: 950px;
+	width: 480px;
+	height: 400px;
+	background: #fff;
+	position: absolute;
+	margin-top: 100px;
+	display: none;
+	transition: 0.5s;
+}
+.erweima2{
+    margin-left: 945px;
+	width: 480px;
+	height: 400px;
+	background: #fff;
+	position: absolute;
+	margin-top: -810px;
+	display: none;
+	transition: 0.5s;
+}
+.ty:hover .erweima{
+    position: relative;
+    box-shadow: 0px 15px 15px rgba(0,0,0,.8);
+    display: block; 
+    transition: 0.5s;
+}
+.ty:hover .erweima2{
+    position: relative;
+    box-shadow: 0px 15px 15px rgba(0,0,0,.8);
+    display: block; 
+    transition: 0.5s;
+}
+.jianjie{
+	width: 960px;
+	height: 500px;
+	margin-top: 30px;
+	background: #fff;
+	margin-top: 70px;
+	margin-left: 20px;
+}
+.jianjie h2{
+	position: relative;
+	font-size: 40px;
+	margin-left: 350px;
+	margin-right: 350px;
+	animation: wd 0.5s infinite;
+}
+@keyframes wd{
+	from {color:black;transform: scale(1);}
+                to {color:tomato;transform: scale(1.15);text-shadow: 0 0 10px black, 0 0 40px black, 0 0 80px black;}
+}
+.jianjie .ff{
+	display: block;
+	margin-left: 5%;
+	font-size: 30px;
+	color: brown;
+	font-weight: bold;
+	 animation: ff 0.8s infinite;
+	text-shadow: 0 15px 15px rgba(0,0,0,.8);
+}
+.jianjie .yh{
+	display: block;
+	margin-left: 5%;
+	font-size: 30px;
+	color: brown;
+	font-weight: bold;
+	animation: yh 0.8s infinite;
+	text-shadow: 0 15px 15px rgba(0,0,0,.8);
+}
+.jianjie .mb{
+	display: block;
+	margin-left: 5%;
+	font-size: 30px;
+	color: brown;
+	font-weight: bold;
+	animation: mb 0.8s infinite;
+	text-shadow: 0 15px 15px rgba(0,0,0,.8);
+}
+.jianjie .sdj{
+	display: block;
+	margin-left: 5%;
+	font-size: 30px;
+	color: brown;
+	font-weight: bold;
+	animation: sdj 0.8s infinite;
+	text-shadow: 0 15px 15px rgba(0,0,0,.8);
+}
+.jianjie .hb{
+	display: block;
+	margin-left: 5%;
+	font-size: 30px;
+	color: brown;
+	font-weight: bold;
+	animation: hb 0.8s infinite;
+	text-shadow: 0 15px 15px rgba(0,0,0,.8);
+}
+@keyframes ff{
+	from{
+		transform: rotateZ(0deg);
+}
+	to{
+		transform: rotateZ(1deg);
+}
+}
+@keyframes yh{
+	from{
+		transform: rotateZ(0deg);
+}
+	to{
+		transform: rotateZ(1deg);
+}
+}
+@keyframes mb{
+	from{
+		transform: rotateZ(0deg);
+}
+	to{
+		transform: rotateZ(1deg);
+}
+}
+@keyframes sdj{
+	from{
+		transform: rotateZ(0deg);
+}
+	to{
+		transform: rotateZ(1deg);
+}
+}
+@keyframes hb{
+	from{
+		transform: rotateZ(0deg);
+}
+	to{
+		transform: rotateZ(1deg);
+}
+}
+.wao .ty img{
+    
+}

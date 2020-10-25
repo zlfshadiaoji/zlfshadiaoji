@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-image: url(../jpg/7.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.da{
+    max-width: 1200px;
+    padding: 0 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.zhong{
+    width: calc(50% - 40px);
+    position: absolute;
+}
+.ti{
+    background-color: #e77f67;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    display: flex;
+    cursor: pointer;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.5s;
+}
+.ti:hover{
+    box-shadow: 0 0 10px #e77f67, 0 0 40px #e77f67, 0 0 80px #e77f67;
+}
+.icon{
+    position: relative;
+    width: 17px;
+}
+.icon::before , .icon::after{
+    content: "";
+    position: absolute;
+    width: 17px;
+    height: 3px;
+    background-color: #fff;
+}
+.icon::after{
+    transform: rotate(90deg);
+    transition: .5s linear;
+}
+.wenben{
+    background-color: rgba(255, 255, 255, .2);
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 0 3px 3px rgba(0, 0, 0, .8);
+    margin: 6px 0;
+    line-height: 26px;
+    opacity: 0;
+    height: 0;
+    transition: 0.5s;
+}
+.xiao:target .wenben{
+    height: auto;
+    opacity: 1;
+    padding: 20px;
+    margin: 12px 0;
+    transition: 0.5s;
+}
+.xiao:target .icon::after{
+    transform: rotate(0);
+}
+@media screen and(max-width: 960px){
+    .da{
+        max-width: 600px;
+    }
+    .zhong{
+        width: 100%;
+    }
+}
+.dahezi{
+    margin-left: -1000px;
+    position: relative;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1800px;
+    transform-style: preserve-3d;
+}
+.photo{
+    position: absolute;
+    background-image: url(../jpg/www2.jpg);
+    box-shadow: 0 0 10px white, 0 0 40px white, 0 0 80px white;
+    transition: .5s;
+    transform-style: preserve-3d;
+}
+.photo span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: inherit;
+    transition: 1s;
+}
+.dahezi:hover .photo{
+    transform: rotateX(45deg) rotateZ(-50deg) translateZ(30px);
+    opacity: 1;
+}
+.dahezi:hover span:nth-child(1){
+    transform: translateX(-20px) translateY(20px) translateZ(-25px);
+    opacity: 0.6;
+}
+.dahezi:hover span:nth-child(2){
+    transform: translateX(-40px) translateY(40px) translateZ(-50px);
+    opacity: 0.3;
+}
+.dahezi:hover span:nth-child(3){
+    transform: translateX(-60px) translateY(60px) translateZ(-75px);
+    opacity: 0.1;
+}
+.dahezi:hover span:nth-child(4){
+    transform: translateX(-80px) translateY(80px) translateZ(-100px);
+    opacity: 0.1;
+    background-image: none;
+    background-color: #fff;
+}
+.totop{
+    display: block;
+    position: absolute;
+    padding: 5px 20px;
+    margin-left: 800px;
+    margin-top: -750px;
+    background-color: #e77f67;
+    color: #fff;
+    cursor: pointer;
+    font-size: 25px;
+    box-shadow: 0 0 10px #e77f67, 0 0 40px #e77f67, 0 0 80px #e77f67;
+    overflow: hidden;
+    transform-style: preserve-3d;
+    perspective: 1800px;
+    transition: 0.5s;
+}
+.totop:hover{
+    transform: rotateZ(15deg) rotateY(-30deg);
+    transition: 0.5s;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, .5);
+}

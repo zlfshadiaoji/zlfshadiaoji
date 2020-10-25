@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../jpg/qiang.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    min-width: 1200px;
+}
+.jc{
+    width: 85%;
+    height: 800px;
+    background-color: wheat;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    margin-top: 60px;
+    box-shadow: inset -12px -12px 30px rgba(253,236,166,1),
+            inset 12px 12px 30px rgba(0,0,0,.5);
+}
+.fugai{
+    position: fixed;
+    width: 85%;
+    height: 750px;
+    background-image: url(../jpg/shan.jpg);
+    background-size: 100% 100%;
+    transform-origin: 0 0;
+    transform: rotateZ(5deg);
+    box-shadow: 0 15px 15px rgba(0, 0, 0, .8);
+    transition: 10s 5s;
+}
+.fugai h1{
+    position: absolute;
+    display: block;
+    margin-left: 45%;
+    margin-top: 360px;
+    color: rgb(253, 204, 52);
+    text-shadow: 0 0 10px black, 0 0 40px black, 0 0 80px black;
+}
+.fugai p{
+    position: absolute;
+    display: block;
+    margin-left: 50%;
+    margin-top: 400px;
+    padding: 3px;
+    color: teal;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, .5);
+}
+.anniu{
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    background-image: url(../jpg/55.png);
+    position: absolute;
+    margin-top: -93px;
+    margin-left: -101px;
+}
+.fugai:hover{
+    transform: rotateZ(120deg);
+    transition: 1s;
+}
+.jc span{
+    position: absolute;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(223, 64, 5);
+    background-image: url(../jpg/qiang.jpg);
+    box-shadow: 0 15px 15px black;
+}
+.jc .one{
+    margin-top: 30px;
+    margin-left: 30.8%;
+    animation: one 0.7s 0s infinite;
+}
+.jc .two{
+    margin-left: 33.3%;
+    animation: two 0.7s 0.7s infinite;
+}
+.jc .three{
+    margin-top: 30px;
+    margin-left: 36.4%;
+    animation: three 0.7s 1.4s infinite;
+}
+.jc .four{
+    margin-left: 38.4%;
+    animation: four 0.7s 2.1s infinite;
+}
+.jc .five{
+    margin-top: 25px;
+    margin-left: 42.4%;
+    animation: five 0.7s 2.8s infinite;
+}
+.jc .six{
+    margin-left: 45.9%;
+    margin-top: -5px;
+    animation: six 0.7s 3.5s infinite;
+}
+@keyframes one{
+    0%{
+        color: rgb(223, 64, 5);
+    }
+    100%{
+        color: white;
+        text-shadow: 0 0 10px black, 0 0 40px black, 0 0 80px black;
+    }
+}
+@keyframes two{
+    0%{
+        color: rgb(223, 64, 5);
+    }
+    100%{
+        color: white;
+        text-shadow: 0 0 10px black, 0 0 40px black, 0 0 80px black;
+    }
+}
+@keyframes three{
+    0%{
+        color: rgb(223, 64, 5);
+    }
+    100%{
+        color: white;
+        text-shadow: 0 0 10px black, 0 0 40px black, 0 0 80px black;
+    }
+}
+@keyframes four{
+    0%{
+        color: rgb(223, 64, 5);
+    }
+    100%{
+        color: white;
+        text-shadow: 0 0 10px black, 0 0 40px black, 0 0 80px black;
+    }
+}
+@keyframes five{
+    0%{
+        color: rgb(223, 64, 5);
+    }
+    100%{
+        color: white;
+        text-shadow: 0 0 10px black, 0 0 40px black, 0 0 80px black;
+    }
+}
+@keyframes six{
+    0%{
+        color: rgb(223, 64, 5);
+    }
+    100%{
+        color: white;
+        text-shadow: 0 0 10px black, 0 0 40px black, 0 0 80px black;
+    }
+}
+.jc p{
+    display: block;
+    font-weight: bold;
+    position: absolute;
+}
+.jichu{
+    font-size: 35px;
+    margin-top: 160px;
+    margin-left: 20%;
+    color: rgb(215, 71, 45);
+    text-shadow: 0 5px 5px black;
+}
+.jc .diyi{
+    font-size: 18px;
+    margin-top: 215px;
+    margin-left: 20%;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .8);
+    padding: 4px;
+    background-image: url(../jpg/qiang.jpg);
+}
+.jc .dier{
+    font-size: 18px;
+    margin-top: 255px;
+    margin-left: 20%;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .8);
+    padding: 4px;
+    background-image: url(../jpg/qiang.jpg);
+}
+.jc .disan{
+    font-size: 18px;
+    margin-top: 295px;
+    margin-left: 20%;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .8);
+    padding: 4px;
+    background-image: url(../jpg/qiang.jpg);
+}
+.jincheng{
+    font-size: 35px;
+    margin-top: 350px;
+    margin-left: 20%;
+    color: rgb(215, 71, 45);
+    text-shadow: 0 5px 5px black;
+}
+.jc .disi{
+    font-size: 18px;
+    margin-top: 405px;
+    margin-left: 20%;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .8);
+    padding: 4px;
+    background-image: url(../jpg/qiang.jpg);
+}
+.jc .diwu{
+    font-size: 18px;
+    margin-top: 455px;
+    margin-left: 20%;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .8);
+    padding: 4px;
+    background-image: url(../jpg/qiang.jpg);
+}
+.jc .diliu{
+    font-size: 18px;
+    margin-top: 505px;
+    margin-left: 20%;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .8);
+    padding: 4px;
+    background-image: url(../jpg/qiang.jpg);
+}
+.jc .xinde{
+    width: 230px;
+    height: 350px;
+    padding: 15px;
+    color: gainsboro;
+    text-align: center;
+    text-indent: 2em;
+    text-shadow: 0 10px 10px rgba(0, 0, 0, .8);
+    margin-top: 100px;
+    margin-left: 70%;
+    background-image: url(../jpg/qiang.jpg);
+    background-size: 100% 100%;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, .8);
+}

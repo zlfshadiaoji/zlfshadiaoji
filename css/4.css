@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../jpg/2.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    min-width: 1300px;
+}
+.bt{
+    width: 25%;
+    height: 300px;
+    background:  #EB7347;
+    box-shadow: 0 0 10px  #EB7347, 0 0 40px  #EB7347, 0 0 80px  #EB7347;
+    text-align: center;
+    margin-left: 37.5%;
+    margin-right: 37.5%;
+    border-bottom-left-radius: 300px;
+    border-bottom-right-radius: 300px;
+}
+.bt span{
+    display: block;
+    font-size: 150px;
+    font-weight: bold;
+    color: azure;
+    text-shadow: 0 0 10px  black, 0 0 40px  black, 0 0 80px  black;
+    margin-top: -20px;
+}
+.bt p{
+    font-size: 80px;
+    margin-top: -30px;
+    font-weight: bold;
+    color: rgb(212, 59, 59);
+    text-shadow: 0 0 10px  black, 0 0 40px  black, 0 0 80px  black;
+}
+.nav{
+    width: 30%;
+    max-height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.neirong{
+	position: relative;
+	max-height: 500px;
+	width: 70%;
+	margin-left: 30%;
+                margin-top: -3.7%;
+	overflow: hidden;
+	box-shadow: 0 0 10px black, 0 0 40px black, 0 0 80px black;
+}
+.zy{
+    width: 100%;
+    height: 500px;
+	position: relative;
+	background-image: url(../jpg/wota5.jpg);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	
+
+}
+.neirong .zy span{
+	width: 70%;
+	height: 150px;
+	display: flex;
+	position: absolute;
+	background: #fff;
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+	margin-top: 60px;
+	margin-left: 25%;
+	text-shadow: 0px 15px 15px rgba(0,0,0,.8);
+	border-radius: 30px;
+	border: 4px solid black;
+	box-shadow: 0 0 10px black, 0 0 40px black, 0 0 80px black;
+	padding: 4px 4px;
+}
+.one{
+    height: 50px;
+    width: 100%;
+    position: relative;
+	display: flex;
+	background: rgba(0,0,0,.5);
+	color: #fff;
+	overflow: hidden;
+	box-shadow: 0 15px 20px rgba(0,0,0,.2);
+}
+.nav a{
+	display: block;
+	font-size: 30px;
+	color: #fff;
+	font-weight: bold;
+	padding: 2px 30%;
+	text-decoration: none;
+}
+.one:hover{
+	transform: scale(1.15);
+	box-shadow: 0px 15px 20px rgba(0,0,0,.8);
+	overflow: hidden;
+	transform: scale(0.9);
+	transition: 0.25s;
+	filter: blur(0.8px);
+}
+.hc{
+	position: relative;
+	background-image: url(../jpg/wota6.jpg);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 500px;
+	text-align: center;
+}
+.hc h1{
+	font-size: 100px;
+	font-weight: bold;
+	color: teal;
+	text-shadow:  0 0 10px thistle, 0 0 40px thistle, 0 0 80px thistle;
+}
+.hc p{
+	font-size: 120px;
+	font-weight: bold;
+	color: tomato;
+	text-shadow:  0 0 10px white, 0 0 40px white, 0 0 80px white;
+}
+.heci{
+	position: relative;
+	background-image: url(../jpg/wota8.jpg);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 500px;
+	text-align: center;
+}
+.heci h1{
+	color: #fff;
+	font-size: 70px;
+	text-shadow:  0 0 10px black, 0 0 40px black, 0 0 80px black;
+}
+.heci h1 span{
+	color: #EB7347;
+	font-size: 100px;
+	text-shadow:  0 0 10px white, 0 0 40px white, 0 0 80px white;
+}
+.top{
+	width: 200px;
+	display: block;
+	text-align: center;
+	height: 45px;
+	font-size: 33px;
+	background-color: aqua;
+	box-shadow: 0px 15px 20px rgba(0,0,0,.8);
+	margin-left: 85%;
+	text-decoration: none;
+	color: #fff;
+	text-shadow:  0 0 10px black, 0 0 40px black, 0 0 80px black;
+	font-weight: bold;
+	transition: 0.3s;
+}
+.top:hover{
+	transform: scale(1.15);
+	box-shadow: 0 0 10px aqua, 0 0 40px aqua, 0 0 80px aqua;
+	transition: 0.3s;
+}
