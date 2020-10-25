@@ -5,7 +5,7 @@
     text-decoration: none;
 }
 body{
-    background-image: url(../jpg/7.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/zlfshadiaoji/zlfshadiaoji@main/jpg/7.jpg);
     background-size: 100% 100%;
     background-attachment: fixed;
     min-height: 100vh;
@@ -98,7 +98,7 @@ body{
 }
 .photo{
     position: absolute;
-    background-image: url(../jpg/www2.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/zlfshadiaoji/zlfshadiaoji@main/jpg/www2.jpg);
     box-shadow: 0 0 10px white, 0 0 40px white, 0 0 80px white;
     transition: .5s;
     transform-style: preserve-3d;
